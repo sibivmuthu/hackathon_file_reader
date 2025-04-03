@@ -12,7 +12,7 @@ import (
 
 type Temp struct {
 	min, max, sum float64
-	count         int
+	count         int64
 }
 
 func main() {
