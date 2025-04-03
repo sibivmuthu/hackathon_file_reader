@@ -16,7 +16,7 @@ type Temp struct {
 }
 
 func main() {
-	err := readFile("data/measurements_10mil.txt")
+	err := readFile("data/measurements_100k.txt")
 	if err != nil {
 		fmt.Println("Error reading file:", err)
 
